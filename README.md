@@ -6,8 +6,8 @@ A few of them are hand built from the [winlibs](https://github.com/winlibs) org.
 
 The `cmake` project itself is meaningless. We are simply using it as a dependency manager. clone the repo and run the following to commands from the VS Developer Prompt
 
-` cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=d:/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=arm64-windows-static`
-` cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=d:/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=arm64-windows`
+- ` cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=d:/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=arm64-windows-static`
+- ` cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=d:/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=arm64-windows`
 
 
 That will gather and and build the deps necessary to build PHP
