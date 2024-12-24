@@ -23,3 +23,7 @@ Ive been able to work my way up to this so far.
 ![PHP Build Config](https://github.com/jamespack/php-deps-windows-arm64/blob/main/config.png?raw=true)
 
 ![PHP Running Locally Built](https://github.com/jamespack/php-deps-windows-arm64/blob/main/Running.png?raw=true)
+
+> I even managed to get the bundled GD built!
+
+![PHP Bundled GD Support](https://github.com/jamespack/php-deps-windows-arm64/blob/main/gd.png?raw=true)

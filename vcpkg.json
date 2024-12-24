@@ -15,7 +15,13 @@
 			"openssl"
 		]
   	},
-	"freetype",
+	{
+		"name":"freetype",
+		"default-features":true,
+		"features":[
+			"bzip2"
+		]
+	},
 	{
 		"name": "libgd",
 		"default-features": true,
@@ -27,7 +33,14 @@
 	"nghttp2",
 	"libxpm",
 	"curl",
-	"libavif",
+	{
+		"name":"libavif",
+		"default-features":true,
+		"features":[
+			"aom",
+			"dav1d"
+		]
+	},
 	"libssh2",
 	"libpng",
 	"libsodium",
@@ -38,7 +51,14 @@
 	"icu",
 	"bzip2",
 	"libvpx",
-	"sqlite3"
+	"sqlite3",
+	{
+		"name":"libwebp",
+		"default-features":true,
+		"features":[
+			"all"
+		]
+	}
   ]
  
   
