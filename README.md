@@ -20,4 +20,4 @@ Ive been able to work my way up to this so far.
 
 
 
-![PHP Build Config](https://github.com/jamespack/php-deps-windows-arm64/blob/main/config.jpg?raw=true)
+![PHP Build Config](https://github.com/jamespack/php-deps-windows-arm64/blob/main/config.png?raw=true)
