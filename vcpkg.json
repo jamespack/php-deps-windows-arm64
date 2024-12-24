@@ -1,0 +1,45 @@
+{
+  "name": "php",
+  "version": "0.1",
+  "dependencies": [
+    "zlib",
+	"openssl",
+	"libffi",
+	{
+		"name":"libzip",
+		"default-features": true,
+		"features":[
+			"bzip2",
+			"liblzma",
+			"wincrypto",
+			"openssl"
+		]
+  	},
+	"freetype",
+	{
+		"name": "libgd",
+		"default-features": true,
+		"features":[
+			"jpeg"
+		]
+	},
+	"gettext",
+	"nghttp2",
+	"libxpm",
+	"curl",
+	"libavif",
+	"libssh2",
+	"libpng",
+	"libsodium",
+	"oniguruma",
+	"liblzma",
+	"lmdb",
+	"dirent",
+	"icu",
+	"bzip2",
+	"libvpx",
+	"sqlite3"
+  ]
+ 
+  
+}
